@@ -2,7 +2,8 @@
   "name": "power-spender",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
+  "bin": "main.js",
   "scripts": {
     "dev": "node main.js"
   },
@@ -19,5 +20,14 @@
     "node-cron": "^3.0.2",
     "prompt": "^1.3.0",
     "qs": "^6.11.0"
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [
+      "./node_modules/figlet/fonts/Standard.flf"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ]
   }
 }
