@@ -1,0 +1,23 @@
+{
+  "name": "power-spender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.0.0",
+    "figlet": "^1.5.2",
+    "jsdom": "^20.0.1",
+    "node-cron": "^3.0.2",
+    "prompt": "^1.3.0",
+    "qs": "^6.11.0"
+  }
+}
